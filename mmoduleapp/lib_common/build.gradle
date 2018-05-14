@@ -1,0 +1,56 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion build_versions.target_sdk
+    defaultConfig {
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    // Support libraries
+    api deps.support.annotations
+    api deps.support.app_compat
+    api deps.support.v13
+    api deps.support.percent
+    api deps.support.recyclerview
+    api deps.support.cardview
+    api deps.support.design
+    api deps.support.v4
+    api deps.support.core_utils
+    api deps.support.multidex
+
+    //Kotlin
+    api deps.kotlin.stdlib
+    api deps.kotlin.test
+
+    //Rxjava+Retrofit+Okhttp3
+    api deps.rxjava
+    api deps.rx_android
+    api deps.retrofit.runtime
+    api deps.retrofit.adapter
+    api deps.retrofit.gson
+    api deps.okhttp.runtime
+    api deps.okhttp.logging
+
+    //other
+    api deps.glide
+    api deps.gson
+    api deps.fastjson
+    api deps.arouter_api
+//    api deps.butterknife_api
+
+
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://F:\workspace\ws_demo\mmoduleapp\module_main\app.iml" filepath="F:\workspace\ws_demo\mmoduleapp\module_main\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_common/lib_common.iml" filepath="$PROJECT_DIR$/lib_common/lib_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmoduleapp.iml" filepath="$PROJECT_DIR$/mmoduleapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_app/module_app.iml" filepath="$PROJECT_DIR$/module_app/module_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_first/module1.iml" filepath="$PROJECT_DIR$/module_first/module1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_main/module_main.iml" filepath="$PROJECT_DIR$/module_main/module_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_second/module_second.iml" filepath="$PROJECT_DIR$/module_second/module_second.iml" />
+    </modules>
+  </component>
+</project>
