@@ -5,10 +5,12 @@
       <module fileurl="file://F:\workspace\ws_demo\mmoduleapp\module_main\app.iml" filepath="F:\workspace\ws_demo\mmoduleapp\module_main\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_common/lib_common.iml" filepath="$PROJECT_DIR$/lib_common/lib_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmoduleapp.iml" filepath="$PROJECT_DIR$/mmoduleapp.iml" />
+      <module fileurl="file://F:\workspace\ws_mygithub\mmoduleapp\mmoduleapp\module_first\module1.iml" filepath="F:\workspace\ws_mygithub\mmoduleapp\mmoduleapp\module_first\module1.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_app/module_app.iml" filepath="$PROJECT_DIR$/module_app/module_app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module_first/module1.iml" filepath="$PROJECT_DIR$/module_first/module1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_first/module_first.iml" filepath="$PROJECT_DIR$/module_first/module_first.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_main/module_main.iml" filepath="$PROJECT_DIR$/module_main/module_main.iml" />
       <module fileurl="file://$PROJECT_DIR$/module_second/module_second.iml" filepath="$PROJECT_DIR$/module_second/module_second.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_third/module_third.iml" filepath="$PROJECT_DIR$/module_third/module_third.iml" />
     </modules>
   </component>
 </project>

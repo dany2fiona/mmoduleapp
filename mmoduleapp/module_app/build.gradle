@@ -54,5 +54,6 @@ dependencies {
         implementation project(':module_main')
         implementation project(':module_first')
         implementation project(':module_second')
+        implementation project(':module_third')
     }
 }
