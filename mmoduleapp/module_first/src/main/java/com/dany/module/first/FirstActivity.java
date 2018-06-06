@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import static com.dany.module.common.utils.ARouterUtils.*;
 
-@Route(path = First_Main)
+@Route(path = First_Main,group = Group_Login)
 public class FirstActivity extends AppCompatActivity {
 
     @Override

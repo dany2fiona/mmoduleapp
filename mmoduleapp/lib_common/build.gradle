@@ -50,7 +50,7 @@ dependencies {
     api deps.gson
     api deps.fastjson
     api deps.arouter_api
-//    api deps.butterknife_api
+    api deps.butterknife_api
 
 
 }

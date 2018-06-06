@@ -5,7 +5,7 @@ ext.deps = [:]
 
 def versions = [:]
 versions.android_gradle_plugin = "3.0.0"
-//versions.butterknife = "8.6.0"//3.0.0--library不支持..放弃
+versions.butterknife = "8.5.1"//8.6.0--3.0.0--library不支持..放弃
 versions.kotlin = "1.1.51"
 versions.support = "26.1.0"
 versions.multidex = "1.0.1"
@@ -64,8 +64,9 @@ deps.gson = "com.google.code.gson:gson:$versions.gson"
 deps.fastjson = "com.alibaba:fastjson:$versions.fastjson"
 deps.arouter_api = "com.alibaba:arouter-api:$versions.arouter_api"
 deps.arouter_compiler = "com.alibaba:arouter-compiler:$versions.arouter_compiler"
-//deps.butterknife_api = "com.jakewharton:butterknife:$versions.butterknife"
-//deps.butterknife_compiler = "com.jakewharton:butterknife-compiler:$versions.butterknife"
+deps.butterknife_api = "com.jakewharton:butterknife:$versions.butterknife"
+deps.butterknife_compiler = "com.jakewharton:butterknife-compiler:$versions.butterknife"
+deps.butterknife_plugin = "com.jakewharton:butterknife-gradle-plugin:$versions.butterknife"
 
 ext.deps = deps
 
