@@ -3,8 +3,8 @@
     package="com.dany.module.first">
 
     <application android:theme="@style/AppTheme">
-        <activity android:name="com.dany.module.first.FirstActivity">
-        </activity>
+        <activity android:name=".FirstActivity"></activity>
+        <activity android:name=".DataBindingTestActivity"></activity>
     </application>
 
 </manifest>

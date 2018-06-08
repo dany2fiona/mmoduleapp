@@ -12,10 +12,9 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.dany.module.common.utils.ARouterUtils.Group_Login;
-import static com.dany.module.common.utils.ARouterUtils.Second_Main;
+import static com.dany.module.common.utils.ARouterUtils.*;
 
-@Route(path = Second_Main, group = Group_Login)
+@Route(path = Second_Main,extras = Login_Extras)
 public class SecondActivity extends AppCompatActivity {
     @BindView(R2.id.tv_test)
     TextView mTestTv;

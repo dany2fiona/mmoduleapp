@@ -10,5 +10,11 @@
         android:layout_height="wrap_content"
         android:text="Hello World! I am module_fisrt"
         />
+    <Button
+        android:id="@+id/btn_dbtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="databinding test"
+        />
 
 </LinearLayout>

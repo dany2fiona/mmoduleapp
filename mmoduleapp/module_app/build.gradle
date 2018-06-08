@@ -21,6 +21,10 @@ android {
         resValue "string", "build_time", buildTime()
     }
 
+    dataBinding {
+        enabled = true
+    }
+
     signingConfigs {
         release {
             keyAlias keystoreProperties['keyAlias']

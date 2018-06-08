@@ -1,6 +1,6 @@
-if(isModule.toBoolean()){
+if (isModule.toBoolean()) {
     apply plugin: 'com.android.application'
-}else{
+} else {
     apply plugin: 'com.android.library'
 }
 apply plugin: 'com.jakewharton.butterknife'
@@ -16,17 +16,21 @@ android {
 
         javaCompileOptions {
             annotationProcessorOptions {
-                arguments = [ moduleName : project.getName() ]
+                arguments = [moduleName: project.getName()]
             }
+        }
+
+        dataBinding {
+            enabled = true
         }
 
     }
 
-    sourceSets{
-        main{
-            if(isModule.toBoolean()){
+    sourceSets {
+        main {
+            if (isModule.toBoolean()) {
                 manifest.srcFile 'src/main/module/AndroidManifest.xml'
-            }else{
+            } else {
                 manifest.srcFile 'src/main/AndroidManifest.xml'
                 java {
                     exclude 'debug/**'
@@ -46,7 +50,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     annotationProcessor deps.arouter_compiler
     annotationProcessor deps.butterknife_compiler
+    annotationProcessor deps.databinding_compiler
     implementation project(':lib_common')
 }

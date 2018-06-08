@@ -67,7 +67,7 @@ deps.arouter_compiler = "com.alibaba:arouter-compiler:$versions.arouter_compiler
 deps.butterknife_api = "com.jakewharton:butterknife:$versions.butterknife"
 deps.butterknife_compiler = "com.jakewharton:butterknife-compiler:$versions.butterknife"
 deps.butterknife_plugin = "com.jakewharton:butterknife-gradle-plugin:$versions.butterknife"
-
+deps.databinding_compiler = "com.android.databinding:compiler:$versions.android_gradle_plugin"
 ext.deps = deps
 
 def build_versions = [:]

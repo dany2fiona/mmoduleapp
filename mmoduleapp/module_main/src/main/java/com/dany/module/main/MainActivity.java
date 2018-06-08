@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.alibaba.android.arouter.facade.Postcard;
@@ -31,11 +30,12 @@ public class MainActivity extends AppCompatActivity{
     public void onViewClicked(View view) {
         int id = view.getId();
         if (id == R.id.btn_m1) {//无参数
-            ARouter.getInstance().build(First_Main, Group_Login)/*.greenChannel()*/.navigation();
+            ARouter.getInstance().build(First_Main).greenChannel().navigation();
         } else if (id == R.id.btn_m2) {//有参数
             ARouter.getInstance().build(Second_Main)
                     .withString("teststring", "dany2fiona")
                     .withInt("testint", 520)
+                    .greenChannel()
                     .navigation(MainActivity.this, 100);
         } else if (id == R.id.btn_m3) {
             ARouter.getInstance().build(Third_Main).navigation(MainActivity.this, new NavCallback() {
